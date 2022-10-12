@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: 5px;
+    scrollbar-color: #1fbc0e transparent;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background: #181818;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1fbc0e;
+    border-radius: 10px;
+}
+
+.bannerClase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.classTitle{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.imageBannerClass{
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.contenidoClass{
+    background: #404040;
+    width: 80%;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.titleSectionClass{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto 1rem;
+}
+
+.paragraphSectionClass{
+    color: #bdbdbd;
+    width: 70%;
+}
+
+
